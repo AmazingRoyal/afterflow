@@ -1,3 +1,28 @@
+## Setup
+Repositori ini dibangun dengan Laravel versi 7. Setelah melakukan clone dari repositori ini, lakukanlah langkah-langkah di bawah ini untuk menjalankan project. 
+
+* masuk ke direktori afterflow
+```bash
+$ cd afterflow
+```
+* jalankan perintah composer install untuk mendownload direktori vendor
+```bash
+$ composer install
+```
+* buat file .env lalu isi file tersebut dengan seluruh isi dari file .env.example
+
+* jalankan perintah php artisan key generate
+```bash
+$ php artisan key:generate
+```
+* Tambahan: Untuk pengerjaan di laptop/PC masing-masing, sesuaikan nama database, username dan password nya di file .env dengan database kalian. 
+
+Setelah itu kalian sudah bisa lanjut mengerjakan soal berikutnya. jangan lupa untuk menjalankan server laravel
+```bash
+$ php artisan serve
+```
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
