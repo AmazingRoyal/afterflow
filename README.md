@@ -17,7 +17,12 @@ $ php artisan key:generate
 ```
 * Tambahan: Untuk pengerjaan di laptop/PC masing-masing, sesuaikan nama database, username dan password nya di file .env dengan database kalian. 
 
-Setelah itu kalian sudah bisa lanjut mengerjakan soal berikutnya. jangan lupa untuk menjalankan server laravel
+Setelah itu kalian perlu melakukan migrasi database, pastikan xampp sudah berjalan
+```bash
+$ php artisan migrate
+```
+
+Setelah itu kalian sudah bisa lanjut. jangan lupa untuk menjalankan server laravel
 ```bash
 $ php artisan serve
 ```
